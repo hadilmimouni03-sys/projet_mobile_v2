@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Supervision Livraisons</string>
+    <string name="login">Connexion</string>
+    <string name="logout">Déconnexion</string>
+    <string name="livraisons">Livraisons</string>
+    <string name="messages">Messages</string>
+    <string name="dashboard">Tableau de bord</string>
+    <string name="recherche">Recherche</string>
+    <string name="etat_livre">Livré</string>
+    <string name="etat_non_livre">Non livré</string>
+    <string name="etat_en_cours">En cours</string>
+    <string name="etat_en_attente">En attente</string>
+    <string name="etat_reporte">Reporté</string>
+    <string name="mode_especes">Espèces</string>
+    <string name="mode_cb">Carte bancaire</string>
+    <string name="mode_virement">Virement</string>
+    <string name="mode_cheque">Chèque</string>
+</resources>

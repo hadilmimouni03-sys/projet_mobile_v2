@@ -1,0 +1,36 @@
+# General / OS
+.DS_Store
+Thumbs.db
+*.log
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.project
+.classpath
+.settings/
+
+# Backend (Spring Boot / Maven)
+backend/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Mobile (Android / Gradle)
+mobile/.gradle/
+mobile/build/
+mobile/app/build/
+mobile/local.properties
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+crashlytics-build.properties

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#1565C0</color>
+    <color name="primary_dark">#0D47A1</color>
+    <color name="primary_light">#E3F2FD</color>
+    <color name="accent">#FF6F00</color>
+    <color name="bg_primary">#F5F7FA</color>
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="etat_livre">#4CAF50</color>
+    <color name="etat_non_livre">#F44336</color>
+    <color name="etat_en_cours">#2196F3</color>
+    <color name="etat_en_attente">#FF9800</color>
+    <color name="urgence">#F44336</color>
+    <color name="white">#FFFFFF</color>
+</resources>
