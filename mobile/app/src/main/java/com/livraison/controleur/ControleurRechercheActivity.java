@@ -18,6 +18,7 @@ import com.livraison.model.Livreur;
 import com.livraison.utils.SessionManager;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 import retrofit2.Call;
@@ -30,7 +31,7 @@ public class ControleurRechercheActivity extends AppCompatActivity {
     private SessionManager session;
     private LivraisonAdapter adapter;
     private List<Livreur> livreurs = new ArrayList<>();
-    private List<String> etatOptions = List.of("Tous", "EN_ATTENTE", "EN_COURS", "LIVRE", "NON_LIVRE");
+    private List<String> etatOptions = Arrays.asList("Tous", "EN_ATTENTE", "EN_COURS", "LIVRE", "NON_LIVRE");
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

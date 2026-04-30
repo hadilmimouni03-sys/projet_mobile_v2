@@ -49,8 +49,10 @@ public class LivreurDetailActivity extends AppCompatActivity {
         readOnly = getIntent().getBooleanExtra("readOnly", false);
 
         setSupportActionBar(binding.toolbar);
-        if (getSupportActionBar() != null) getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setTitle("Livraison #" + nocde);
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+            getSupportActionBar().setTitle("Livraison #" + nocde);
+        }
 
         // Spinners
         ArrayAdapter<String> etatAdapter = new ArrayAdapter<>(this,
